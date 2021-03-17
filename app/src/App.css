@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-frame {
+  background: no-repeat center/100% url("./img/recortar-gastos-empresa.jpg");
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+  padding: 30vh;
+}
+
+.app-header > h1 {
+  color: white;
+  font-size: 4vw;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 5vw;
+}
+
+.wrapper button {
+  background-color: rgba(0, 0, 54, 0.794);
+  width: 10vw;
+  height: 4vh;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+.customers-list > tr > td {
+  padding: 0.5vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  border-bottom: 1px solid white;
+}
+
+.customers-list {
+  margin-left: 6vw;
+  margin-bottom: 4vh;
+}
+
+.customer-data > p {
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.customer-data {
+  margin: 20px 0;
+}
+
+.edit > form input {
+  margin-top: 10px;
+  font-size: 1vw;
+  padding-left: 5px;
+}
+
+.edit > form label {
+  margin-right: 10px;
+  font-size: 1.2vw;
+}
+
+.edit > form > :nth-child(2) > label {
+  margin-right: 50px;
+}
+
+.edit > form > :nth-child(3) > label {
+  margin-right: 35px;
+}
+
+.edit > form button {
+  margin-top: 20px;
+  margin-left: 2vw;
+}

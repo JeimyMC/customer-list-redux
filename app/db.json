@@ -1,0 +1,47 @@
+{
+  "customers": [
+    {
+      "id": "33000000",
+      "dni": "33000000",
+      "name": "Carlos",
+      "age": 35,
+      "isDeleteAllow": false,
+      "user": {
+        "permissions": [
+          "CUSTOMER_LIST",
+          "CUSTOMER_VIEW",
+          "CUSTOMER_EDIT"
+        ]
+      }
+    },
+    {
+      "id": "44000000",
+      "dni": "44000000",
+      "name": "Maria 33444",
+      "age": 19
+    },
+    {
+      "name": "Jeimy miranda",
+      "dni": "200000",
+      "age": 36,
+      "id": "ajrI5EU"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
